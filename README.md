@@ -9,7 +9,8 @@ public class HelloWorld {
 		/* 
 		Sestej b in c ter rezultat shrani v spremenljivko a	
 		-------------------------------------*/
-	  
+		
+		a=b+c;
 
 	  
 	  
@@ -138,6 +139,10 @@ public class HelloWorld {
 	System.out.println("   b: "+(tri()==(int)Math.pow((double)arg_b,(double)arg_c)));
 	i=printa(i);
 	System.out.println("a: "+(stiri()==500479));
+	i=printa(i);
+	arg_b=17;
+	arg_c=19;
+	System.out.println(pet()==true);
 	i=printa(i);
 	arg_b=5;
 	arg_c=8;
